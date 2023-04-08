@@ -1,0 +1,42 @@
+.imgbox {
+  position: relative;
+}
+.Textbox {
+  width: 100%;
+  color: white;
+  font-size: 2vw;
+  margin-bottom: 15px;
+  grid-row: 1;
+  position: absolute;
+  margin-top: 2%;
+  margin-left: 7%;
+}
+.Textbox a {
+  background-color: #fcee71;
+  padding: 1% 2%;
+  font-size: 1vw;
+  letter-spacing: 0.7px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.Textbox h2 {
+  word-break: keep-all;
+  text-shadow: 2px 2px 7px black;
+  margin-bottom: 2%;
+}
+.Textbox a:hover {
+  cursor: pointer;
+}
+.springWrap {
+  margin-bottom: 1rem;
+  position: relative;
+  width: 100%;
+}
+.springWrap img {
+  width: 10%;
+}
+.imgbox > img {
+  height: 100%;
+  width: 100%;
+}
